@@ -1,6 +1,6 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emiln237/picon-other/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emiln237/picon-other/main"  
+ # # Command: wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL="https://raw.githubusercontent.com/emil237/picon-other/main"  
 PICONCAM="piconCam.tar.gz"
 PICONSAT="piconSat.tar.gz"
 PICONCRYPT="piconCrypt.tar.gz"
@@ -79,6 +79,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
